@@ -36,7 +36,7 @@ function App() {
           ))}
         </tbody>
       </table>
-    <p>Teste</p>
+      <p>Teste</p>
     </div>
   );
 }
