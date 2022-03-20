@@ -2,7 +2,7 @@ import './App.css';
 
 import React, { useEffect, useState } from 'react';
 
-const API_ENDPOINT = 'http://localhost:3000/users';
+const API_ENDPOINT = process.env.REACT_APP_API;
 
 function App() {
   const [data, setData] = useState([]);
