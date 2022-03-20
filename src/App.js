@@ -2,7 +2,7 @@ import './App.css';
 
 import React, { useEffect, useState } from 'react';
 
-const API_URI = 'https://heroker-thssathler-backend.herokuapp.com/';
+const API_URI = process.env.REACT_APP_API_URI;
 
 function App() {
   const [data, setData] = useState([]);
